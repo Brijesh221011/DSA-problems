@@ -11,10 +11,5 @@ public class palindromeNumber {
         }
         return true;
     }
-    // public static void main(String[] args) {
-       
-    //     int number=12121;
-    //     boolean result=isPalindrome(number);
-    //     System.out.println("Is "+number+" a palindrome? "+result);
-    // }
+    
 }
