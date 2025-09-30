@@ -11,9 +11,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-       // Solution solution = new Solution();
         int x = 120;
         int result = reverse(x);
-        System.out.println(result); // Output: -321
+        System.out.println(result); 
     }
 }
