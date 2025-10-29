@@ -1,4 +1,4 @@
-# [3.Longest Substring without Repeating characters] (https://leetcode.com/problems/longest-substring-without-repeating-characters/) 
+# [3.Longest Substring without Repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) 
 
 ## Description
 
