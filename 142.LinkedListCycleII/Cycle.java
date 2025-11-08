@@ -1,4 +1,12 @@
-
+  class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) {
+         val = x;
+          next = null;
+      }
+  }
+ 
 public class Cycle {
     public ListNode detectCycle(ListNode head) {
         ListNode slow=head;

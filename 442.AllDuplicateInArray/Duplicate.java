@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class Duplicate {
     public List<Integer> findDuplicates(int[] nums) {
