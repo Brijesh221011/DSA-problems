@@ -1,0 +1,18 @@
+import java.util.HashSet;
+
+class Found{
+    public int findFinalValue(int[] nums, int original) {
+        HashSet<Integer>set=new HashSet<>();
+
+        for(int num:nums){
+            set.add(num);
+        }
+       
+        while(set.contains(original)){
+                original=2*original;
+            }
+     
+        return original;
+    }
+    
+}
