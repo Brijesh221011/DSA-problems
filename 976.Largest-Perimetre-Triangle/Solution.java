@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Arrays;
 public class Solution{
     public static int largestPerimeter(int[] nums) {
         Arrays.sort(nums);
