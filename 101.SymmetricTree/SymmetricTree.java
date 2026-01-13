@@ -1,0 +1,21 @@
+//101. Symmetric Tree
+//time complexity: O(n)
+//space complexity: O(h)
+
+public class SymmetricTree {
+    public boolean isSymmetric(TreeNode root) {
+        return helper(root.left,root.right);
+    }
+
+    public boolean helper(TreeNode root1,TreeNode root2){
+        if(root1==null && root2==null){
+            return true;
+        }
+
+        if(root1==null || root2==null){
+            return false;
+        }
+
+        return (root1.val==root2.val ) && helper(root1.left,root2.right) && helper(root1.right,root2.left);
+    }
+}
