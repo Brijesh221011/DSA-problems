@@ -56,7 +56,7 @@
     }
     
 }
-class NetworkConnected {
+class Solution {
     public int makeConnected(int n, int[][] connections) {
         DSU dsu=new DSU(n);
         int cntExtras=0;
